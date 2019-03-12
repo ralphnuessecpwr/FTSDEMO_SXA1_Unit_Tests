@@ -20,7 +20,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
           <properties:properties>
             <properties:property name="value" type="string">F1F0F0F0F0F0F0F0</properties:property>
-            <properties:property name="expectedValue" type="string">F6F0F0F0F0F0F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F1F0F0F0F0F0F0F0</properties:property>
           </properties:properties>
         </testcase:data>
       </testcase:input>
@@ -28,10 +28,13 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
           <properties:properties>
             <properties:property name="value" type="string">0000000F</properties:property>
-            <properties:property name="expectedValue" type="string">0300000F</properties:property>
+            <properties:property name="expectedValue" type="string">0200000F</properties:property>
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure"/>
@@ -236,7 +239,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
           <properties:properties>
             <properties:property name="value" type="string">F6F0F0F0F0F0F0F0</properties:property>
-            <properties:property name="expectedValue" type="string">F1F5F0F0F0F0F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F6F0F0F0F0F0F0F0</properties:property>
           </properties:properties>
         </testcase:data>
       </testcase:input>
@@ -244,10 +247,13 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
           <properties:properties>
             <properties:property name="value" type="string">0000000F</properties:property>
-            <properties:property name="expectedValue" type="string">0375000F</properties:property>
+            <properties:property name="expectedValue" type="string">2400000F</properties:property>
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure"/>
       <testcase:checkconditions>
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
@@ -279,10 +285,13 @@
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
           <properties:properties>
             <properties:property name="value" type="string">0000000F</properties:property>
-            <properties:property name="expectedValue" type="string">1000000F</properties:property>
+            <properties:property name="expectedValue" type="string">3000000F</properties:property>
           </properties:properties>
         </testcase:data>
       </testcase:input>
+      <testcase:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure"/>
+      <testcase:output listructure="../Structures/CWXTCOB_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB_EMP-TYPE.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTCOB_SALES-AMOUNT.listructure"/>
       <testcase:output listructure="../Structures/CWXTCOB_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTCOB_COMM-TOTAL.listructure"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.3.2.v20190211-1724_163?>
-<!--Topaz for Total Test 19.3.2.v20190211-1724_163 25.02.2019 16:44:21-->
-<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTCOB_Scenario_Good.testscenario">
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 12.03.2019 12:54:23-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTCOB_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
-    <testscenario:testcase alias="" csect="CWXTCOB" encoding="1047" entrypoint="CWXTCOB#" id="Unit%20Test/Scenarios/CWXTCOB_Scenario_Good.testscenario%23CWXTCOBCase1" target="CWXTCOB">
+    <testscenario:testcase alias="" csect="CWXTCOB" encoding="1047" entrypoint="CWXTCOB#C" id="Unit%20Test/Scenarios/CWXTCOB_Scenario.testscenario%23CWXTCOBCase1" target="CWXTCOB">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.RXN1.PRD.LOAD.DB</testcase:ddio>
-      <testcase:ddiotype>DDIO</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1551083473000</testcase:targetCaptureCompileTime>
+      <testcase:ddio>HDDRXM0.DEMO.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1551838720000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWXTCOB.interface#Unit%20Test/Interfaces/CWXTCOB.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWXTCOB_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB_PARMINFO.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTCOB_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
@@ -22,10 +22,10 @@
         <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
       </testcase:checkconditions>
       <testcase:stubs>
-        <testcase:stub>../Stubs/CWXTCOB_CWXTDATE_02.stub#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub</testcase:stub>
         <testcase:stub>../Stubs/CWXTCOB_CWXTSUBC_01.stub#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub</testcase:stub>
-        <testcase:stub>../Stubs/CWXTCOB_EMPFILE_FILE_02.stub#Unit%20Test/Stubs/CWXTCOB_EMPFILE_FILE_02.stub</testcase:stub>
-        <testcase:stub>../Stubs/CWXTCOB_RPTFILE_FILE_02.stub#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB_CWXTDATE_01.stub#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB_EMPFILE_FILE_01.stub#Unit%20Test/Stubs/CWXTCOB_EMPFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB_RPTFILE_FILE_01.stub#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub</testcase:stub>
       </testcase:stubs>
     </testscenario:testcase>
   </testscenario:testcases>

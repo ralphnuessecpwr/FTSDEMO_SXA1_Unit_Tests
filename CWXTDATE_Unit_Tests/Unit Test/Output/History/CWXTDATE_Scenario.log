@@ -1,12 +1,9 @@
 
 ***************** Output from TTTRUNNR *****************
 
- CEE3740I The following messages pertain to the system default run-time options.
- CEE3768I The system default for the run-time option DEBUG could not be overridden.
- CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-02-26 08:26.33��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-03-12 07:59.10��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWXTDATE
  STTR014I Processing test scenario CWXTDATE
@@ -68,8 +65,8 @@
  module: CWXTCOB , csect: CWXTDATE, entry: CWXTDATE
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 38A52028
- ---TARGCALL---entry newTARGET: 38A52028
+ ---TARGET---exit newTARGET: 38779028
+ ---TARGCALL---entry newTARGET: 38779028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -107,14 +104,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A52098
- ---addTargetArg---workingArea: 38A52088
+ AV ptr: 38779098
+ ---addTargetArg---workingArea: 38779088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A52088
+ ---T addTargetArg---workingArea: 38779088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A52088
+ ---TARGARG--- workingArea: 38779088
  ---TARGARG---entry
  length: 2
  ---T addTargetArg---entry
@@ -124,7 +121,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A52098
+ AV ptr: 38779098
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -137,14 +134,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A52098
- ---addTargetArg---workingArea: 38A520E8
+ AV ptr: 38779098
+ ---addTargetArg---workingArea: 387790E8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A520E8
+ ---T addTargetArg---workingArea: 387790E8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A520E8
+ ---TARGARG--- workingArea: 387790E8
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -154,7 +151,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A52098
+ AV ptr: 38779098
  AV #: 2
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -171,14 +168,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A52098
- ---addTargetArg---workingArea: 38A52128
+ AV ptr: 38779098
+ ---addTargetArg---workingArea: 38779128
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A52128
+ ---T addTargetArg---workingArea: 38779128
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A52128
+ ---TARGARG--- workingArea: 38779128
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -188,7 +185,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A52098
+ AV ptr: 38779098
  AV #: 3
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -209,14 +206,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A52098
- ---addTargetArg---workingArea: 38A52110
+ AV ptr: 38779098
+ ---addTargetArg---workingArea: 38779110
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A52110
+ ---T addTargetArg---workingArea: 38779110
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A52110
+ ---TARGARG--- workingArea: 38779110
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTDATE
  ---openW_includeName---entry
@@ -259,8 +256,8 @@
  module: CWXTCOB , csect: CWXTDATE, entry: CWXTDATE
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 38A52138
- ---TARGCALL---entry newTARGET: 38A52138
+ ---TARGET---exit newTARGET: 38779138
+ ---TARGCALL---entry newTARGET: 38779138
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -298,14 +295,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A52860
- ---addTargetArg---workingArea: 38A52850
+ AV ptr: 38779860
+ ---addTargetArg---workingArea: 38779850
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A52850
+ ---T addTargetArg---workingArea: 38779850
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A52850
+ ---TARGARG--- workingArea: 38779850
  ---TARGARG---entry
  length: 2
  ---T addTargetArg---entry
@@ -315,7 +312,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A52860
+ AV ptr: 38779860
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -328,14 +325,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A52860
- ---addTargetArg---workingArea: 38A528B0
+ AV ptr: 38779860
+ ---addTargetArg---workingArea: 387798B0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A528B0
+ ---T addTargetArg---workingArea: 387798B0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A528B0
+ ---TARGARG--- workingArea: 387798B0
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -345,7 +342,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A52860
+ AV ptr: 38779860
  AV #: 2
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -362,14 +359,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A52860
- ---addTargetArg---workingArea: 38A528F0
+ AV ptr: 38779860
+ ---addTargetArg---workingArea: 387798F0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A528F0
+ ---T addTargetArg---workingArea: 387798F0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A528F0
+ ---TARGARG--- workingArea: 387798F0
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -379,7 +376,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A52860
+ AV ptr: 38779860
  AV #: 3
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -400,14 +397,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A52860
- ---addTargetArg---workingArea: 38A528D8
+ AV ptr: 38779860
+ ---addTargetArg---workingArea: 387798D8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A528D8
+ ---T addTargetArg---workingArea: 387798D8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A528D8
+ ---TARGARG--- workingArea: 387798D8
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTDATE
  ---openW_includeName---entry
@@ -450,8 +447,8 @@
  module: CWXTCOB , csect: CWXTDATE, entry: CWXTDATE
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 38A52900
- ---TARGCALL---entry newTARGET: 38A52900
+ ---TARGET---exit newTARGET: 38779900
+ ---TARGCALL---entry newTARGET: 38779900
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -489,14 +486,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A53028
- ---addTargetArg---workingArea: 38A53018
+ AV ptr: 3877A028
+ ---addTargetArg---workingArea: 3877A018
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A53018
+ ---T addTargetArg---workingArea: 3877A018
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A53018
+ ---TARGARG--- workingArea: 3877A018
  ---TARGARG---entry
  length: 2
  ---T addTargetArg---entry
@@ -506,7 +503,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A53028
+ AV ptr: 3877A028
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -519,14 +516,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A53028
- ---addTargetArg---workingArea: 38A53078
+ AV ptr: 3877A028
+ ---addTargetArg---workingArea: 3877A078
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A53078
+ ---T addTargetArg---workingArea: 3877A078
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A53078
+ ---TARGARG--- workingArea: 3877A078
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -536,7 +533,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A53028
+ AV ptr: 3877A028
  AV #: 2
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -553,14 +550,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A53028
- ---addTargetArg---workingArea: 38A530B8
+ AV ptr: 3877A028
+ ---addTargetArg---workingArea: 3877A0B8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A530B8
+ ---T addTargetArg---workingArea: 3877A0B8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A530B8
+ ---TARGARG--- workingArea: 3877A0B8
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -570,7 +567,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A53028
+ AV ptr: 3877A028
  AV #: 3
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -591,14 +588,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A53028
- ---addTargetArg---workingArea: 38A530A0
+ AV ptr: 3877A028
+ ---addTargetArg---workingArea: 3877A0A0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A530A0
+ ---T addTargetArg---workingArea: 3877A0A0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A530A0
+ ---TARGARG--- workingArea: 3877A0A0
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTDATE
  ---openW_includeName---entry
@@ -641,8 +638,8 @@
  module: CWXTCOB , csect: CWXTDATE, entry: CWXTDATE
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 38A530C8
- ---TARGCALL---entry newTARGET: 38A530C8
+ ---TARGET---exit newTARGET: 3877A0C8
+ ---TARGCALL---entry newTARGET: 3877A0C8
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -680,14 +677,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A537F0
- ---addTargetArg---workingArea: 38A537E0
+ AV ptr: 3877A7F0
+ ---addTargetArg---workingArea: 3877A7E0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A537E0
+ ---T addTargetArg---workingArea: 3877A7E0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A537E0
+ ---TARGARG--- workingArea: 3877A7E0
  ---TARGARG---entry
  length: 2
  ---T addTargetArg---entry
@@ -697,7 +694,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A537F0
+ AV ptr: 3877A7F0
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -710,14 +707,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A537F0
- ---addTargetArg---workingArea: 38A53840
+ AV ptr: 3877A7F0
+ ---addTargetArg---workingArea: 3877A840
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A53840
+ ---T addTargetArg---workingArea: 3877A840
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A53840
+ ---TARGARG--- workingArea: 3877A840
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -727,7 +724,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A537F0
+ AV ptr: 3877A7F0
  AV #: 2
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -744,14 +741,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A537F0
- ---addTargetArg---workingArea: 38A53880
+ AV ptr: 3877A7F0
+ ---addTargetArg---workingArea: 3877A880
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A53880
+ ---T addTargetArg---workingArea: 3877A880
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A53880
+ ---TARGARG--- workingArea: 3877A880
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -761,7 +758,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A537F0
+ AV ptr: 3877A7F0
  AV #: 3
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -782,14 +779,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A537F0
- ---addTargetArg---workingArea: 38A53868
+ AV ptr: 3877A7F0
+ ---addTargetArg---workingArea: 3877A868
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A53868
+ ---T addTargetArg---workingArea: 3877A868
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A53868
+ ---TARGARG--- workingArea: 3877A868
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTDATE
  ---openW_includeName---entry
@@ -832,8 +829,8 @@
  module: CWXTCOB , csect: CWXTDATE, entry: CWXTDATE
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 38A53890
- ---TARGCALL---entry newTARGET: 38A53890
+ ---TARGET---exit newTARGET: 3877A890
+ ---TARGCALL---entry newTARGET: 3877A890
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -871,14 +868,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A53FB8
- ---addTargetArg---workingArea: 38A53FA8
+ AV ptr: 3877AFB8
+ ---addTargetArg---workingArea: 3877AFA8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A53FA8
+ ---T addTargetArg---workingArea: 3877AFA8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A53FA8
+ ---TARGARG--- workingArea: 3877AFA8
  ---TARGARG---entry
  length: 2
  ---T addTargetArg---entry
@@ -888,7 +885,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A53FB8
+ AV ptr: 3877AFB8
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -901,14 +898,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A53FB8
- ---addTargetArg---workingArea: 38A54008
+ AV ptr: 3877AFB8
+ ---addTargetArg---workingArea: 3877B008
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A54008
+ ---T addTargetArg---workingArea: 3877B008
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A54008
+ ---TARGARG--- workingArea: 3877B008
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -918,7 +915,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A53FB8
+ AV ptr: 3877AFB8
  AV #: 2
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -935,14 +932,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A53FB8
- ---addTargetArg---workingArea: 38A54048
+ AV ptr: 3877AFB8
+ ---addTargetArg---workingArea: 3877B048
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A54048
+ ---T addTargetArg---workingArea: 3877B048
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A54048
+ ---TARGARG--- workingArea: 3877B048
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -952,7 +949,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A53FB8
+ AV ptr: 3877AFB8
  AV #: 3
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -973,14 +970,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A53FB8
- ---addTargetArg---workingArea: 38A54030
+ AV ptr: 3877AFB8
+ ---addTargetArg---workingArea: 3877B030
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A54030
+ ---T addTargetArg---workingArea: 3877B030
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A54030
+ ---TARGARG--- workingArea: 3877B030
  ---BNDTARGT---entry
  --->>>modName = CWXTCOB , epName = CWXTDATE
  ---openW_includeName---entry
@@ -1023,8 +1020,8 @@
  module: CWXTCOB , csect: CWXTDATE, entry: CWXTDATE
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 38A54058
- ---TARGCALL---entry newTARGET: 38A54058
+ ---TARGET---exit newTARGET: 3877B058
+ ---TARGCALL---entry newTARGET: 3877B058
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -1062,14 +1059,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A54780
- ---addTargetArg---workingArea: 38A54770
+ AV ptr: 3877B780
+ ---addTargetArg---workingArea: 3877B770
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A54770
+ ---T addTargetArg---workingArea: 3877B770
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A54770
+ ---TARGARG--- workingArea: 3877B770
  ---TARGARG---entry
  length: 2
  ---T addTargetArg---entry
@@ -1079,7 +1076,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A54780
+ AV ptr: 3877B780
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -1092,14 +1089,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A54780
- ---addTargetArg---workingArea: 38A547D0
+ AV ptr: 3877B780
+ ---addTargetArg---workingArea: 3877B7D0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A547D0
+ ---T addTargetArg---workingArea: 3877B7D0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A547D0
+ ---TARGARG--- workingArea: 3877B7D0
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -1109,7 +1106,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A54780
+ AV ptr: 3877B780
  AV #: 2
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -1126,14 +1123,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A54780
- ---addTargetArg---workingArea: 38A54810
+ AV ptr: 3877B780
+ ---addTargetArg---workingArea: 3877B810
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A54810
+ ---T addTargetArg---workingArea: 3877B810
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A54810
+ ---TARGARG--- workingArea: 3877B810
  ---TARGARG---entry
  length: 6
  ---T addTargetArg---entry
@@ -1143,7 +1140,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38A54780
+ AV ptr: 3877B780
  AV #: 3
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -1164,11 +1161,11 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38A54780
- ---addTargetArg---workingArea: 38A547F8
+ AV ptr: 3877B780
+ ---addTargetArg---workingArea: 3877B7F8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38A547F8
+ ---T addTargetArg---workingArea: 3877B7F8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38A547F8
+ ---TARGARG--- workingArea: 3877B7F8
