@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 Feb 28, 2019 1:56:33 AM-->
+<result:result xmlns:result="http://www.compuware.com/model/xml/result"><result:testsuite errorCount="1" failureCount="0" testCount="0" testsuite="../Last%20Execution/CWXTCOB_Scenario_Bad.archive#Unit%20Test%5C.temp%5CCWXTCOB_Scenario_Bad.testsuite"><result:testscenarios errorCount="1" failureCount="0" testCount="0" testscenario="../Last%20Execution/CWXTCOB_Scenario_Bad.archive#Unit%20Test/Scenarios/CWXTCOB_Scenario_Bad.testscenario"><result:testcases errorCount="1" testcase="../Last%20Execution/CWXTCOB_Scenario_Bad.archive#Unit%20Test/Scenarios/CWXTCOB_Scenario_Bad.testscenario%23CWXTCOBCase1"><result:results message="Testcase has no output or output is empty." name="Testcase incomplete" result="Error"/></result:testcases></result:testscenarios></result:testsuite></result:result>
