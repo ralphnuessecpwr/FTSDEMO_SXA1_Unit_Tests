@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.1.v20181214-1343_790?>
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 21.03.2019 13:13:00-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure">
+  <listructure:struct id="PASS_ME_AROUND" name="PASS_ME_AROUND">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">82</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">82</properties:property>
+    </properties:properties>
+    <listructure:string id="PASS_ME_AROUND.INFILE_EOF_FLAG" length="1" name="INFILE_EOF_FLAG">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(1)</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(1)</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="PASS_ME_AROUND.ACTION_FLAG" length="1" name="ACTION_FLAG">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(1)</properties:property>
+        <properties:property name="displayLength" type="number">1</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(1)</properties:property>
+        <properties:property name="storageLength" type="number">1</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:struct id="PASS_ME_AROUND.INCOMING_DATA" name="INCOMING_DATA">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">80</properties:property>
+      </properties:properties>
+      <listructure:string id="PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" length="6" name="KEEPER_TAG">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(6)</properties:property>
+          <properties:property name="displayLength" type="number">6</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(6)</properties:property>
+          <properties:property name="storageLength" type="number">6</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" length="74" name="TEXT_PORTION">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(74)</properties:property>
+          <properties:property name="displayLength" type="number">74</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(74)</properties:property>
+          <properties:property name="storageLength" type="number">74</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

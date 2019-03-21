@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.1.v20181214-1343_790?>
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 21.03.2019 13:16:25-->
+<testsuite:testsuite xmlns:testsuite="http://www.compuware.com/model/xml/testsuite" id="Unit%20Test/Suites/TPROG04.testsuite">
+  <testsuite:testscenario>../Scenarios/TPROG04_Scenario.testscenario#Unit%20Test/Scenarios/TPROG04_Scenario.testscenario</testsuite:testscenario>
+</testsuite:testsuite>

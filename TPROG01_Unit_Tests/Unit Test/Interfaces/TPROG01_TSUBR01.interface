@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.1.v20181214-1343_790?>
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 21.03.2019 12:41:05-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/TPROG01_TSUBR01.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/TPROG01_TSUBR01_PASS-ME-AROUND.listructure#Unit%20Test/Structures/TPROG01_TSUBR01_PASS-ME-AROUND.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/TPROG01_TSUBR01_PASS-ME-AROUND.listructure#PASS_ME_AROUND">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/TPROG01_TSUBR01_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INFILE_EOF_FLAG">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/TPROG01_TSUBR01_PASS-ME-AROUND.listructure#PASS_ME_AROUND.ACTION_FLAG">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/TPROG01_TSUBR01_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/TPROG01_TSUBR01_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/TPROG01_TSUBR01_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

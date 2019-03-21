@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/TPROG05_TSUBR05_01.stub" stubtype="Program" target="TSUBR05" token="10000">
+  <stub:description>Created: 21.03.2019 13:13:00</stub:description>
+  <stub:stubdata id="0" name="TSUBR05">
+    <stub:interface>../Interfaces/TPROG05_TSUBR05.interface#Unit%20Test/Interfaces/TPROG05_TSUBR05.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#Unit%20Test/Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND" id="arg0.PASS_ME_AROUND">
+        <properties:properties>
+          <properties:property name="value" type="string">D5D94CD2C5C5D76EC8C4C4D9E7D4F040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INFILE_EOF_FLAG" id="output0.arg0.PASS_ME_AROUND.INFILE_EOF_FLAG" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.ACTION_FLAG" id="output0.arg0.PASS_ME_AROUND.ACTION_FLAG" offset="1"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" id="output0.arg0.PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" offset="2"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" id="output0.arg0.PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" offset="8"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="TSUBR05">
+    <stub:interface>../Interfaces/TPROG05_TSUBR05.interface#Unit%20Test/Interfaces/TPROG05_TSUBR05.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#Unit%20Test/Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND" id="arg0.PASS_ME_AROUND">
+        <properties:properties>
+          <properties:property name="value" type="string">D5D94CD2C5C5D76ED996A285A240C1998540D9858440404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INFILE_EOF_FLAG" id="output1.arg0.PASS_ME_AROUND.INFILE_EOF_FLAG" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.ACTION_FLAG" id="output1.arg0.PASS_ME_AROUND.ACTION_FLAG" offset="1"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" id="output1.arg0.PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" offset="2"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" id="output1.arg0.PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" offset="8"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="TSUBR05">
+    <stub:interface>../Interfaces/TPROG05_TSUBR05.interface#Unit%20Test/Interfaces/TPROG05_TSUBR05.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#Unit%20Test/Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND" id="arg0.PASS_ME_AROUND">
+        <properties:properties>
+          <properties:property name="value" type="string">D5D94CD2C5C5D76E40404040E589969385A3A24081998540C293A485404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INFILE_EOF_FLAG" id="output2.arg0.PASS_ME_AROUND.INFILE_EOF_FLAG" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.ACTION_FLAG" id="output2.arg0.PASS_ME_AROUND.ACTION_FLAG" offset="1"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" id="output2.arg0.PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" offset="2"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" id="output2.arg0.PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" offset="8"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="TSUBR05">
+    <stub:interface>../Interfaces/TPROG05_TSUBR05.interface#Unit%20Test/Interfaces/TPROG05_TSUBR05.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#Unit%20Test/Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND" id="arg0.PASS_ME_AROUND">
+        <properties:properties>
+          <properties:property name="value" type="string">D5D94CD2C5C5D76EC9E2D7E64089A240C7998581A340404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INFILE_EOF_FLAG" id="output3.arg0.PASS_ME_AROUND.INFILE_EOF_FLAG" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.ACTION_FLAG" id="output3.arg0.PASS_ME_AROUND.ACTION_FLAG" offset="1"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" id="output3.arg0.PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" offset="2"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" id="output3.arg0.PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" offset="8"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="TSUBR05">
+    <stub:interface>../Interfaces/TPROG05_TSUBR05.interface#Unit%20Test/Interfaces/TPROG05_TSUBR05.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#Unit%20Test/Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND" id="arg0.PASS_ME_AROUND">
+        <properties:properties>
+          <properties:property name="value" type="string">D5D94CD2C5C5D76E4040404081958440A2964081998540A896A45A40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INFILE_EOF_FLAG" id="output4.arg0.PASS_ME_AROUND.INFILE_EOF_FLAG" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.ACTION_FLAG" id="output4.arg0.PASS_ME_AROUND.ACTION_FLAG" offset="1"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" id="output4.arg0.PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" offset="2"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" id="output4.arg0.PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" offset="8"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="TSUBR05">
+    <stub:interface>../Interfaces/TPROG05_TSUBR05.interface#Unit%20Test/Interfaces/TPROG05_TSUBR05.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#Unit%20Test/Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND" id="arg0.PASS_ME_AROUND">
+        <properties:properties>
+          <properties:property name="value" type="string">E8D9C5D5C44040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INFILE_EOF_FLAG" id="output5.arg0.PASS_ME_AROUND.INFILE_EOF_FLAG" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.ACTION_FLAG" id="output5.arg0.PASS_ME_AROUND.ACTION_FLAG" offset="1"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" id="output5.arg0.PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" offset="2"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" id="output5.arg0.PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" offset="8"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="TSUBR05">
+    <stub:interface>../Interfaces/TPROG05_TSUBR05.interface#Unit%20Test/Interfaces/TPROG05_TSUBR05.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#Unit%20Test/Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND" id="arg0.PASS_ME_AROUND">
+        <properties:properties>
+          <properties:property name="value" type="string">E8C34040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INFILE_EOF_FLAG" id="output6.arg0.PASS_ME_AROUND.INFILE_EOF_FLAG" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.ACTION_FLAG" id="output6.arg0.PASS_ME_AROUND.ACTION_FLAG" offset="1"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" id="output6.arg0.PASS_ME_AROUND.INCOMING_DATA.KEEPER_TAG" offset="2"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG05_TSUBR05_PASS-ME-AROUND.listructure#PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" id="output6.arg0.PASS_ME_AROUND.INCOMING_DATA.TEXT_PORTION" offset="8"/>
+    </stub:output>
+  </stub:stubdata>
+</stub:stub>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="MOD" encoding="1047" id="Unit%20Test/Stubs/TPROG03_OUTPUT_FILE_01.stub" stubtype="QSAM" target="OUTPUT" token="20000">
+  <stub:description>Created: 21.03.2019 12:52:10</stub:description>
+  <stub:stubdata id="0" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output0.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output0.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output1.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output1.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output2.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output2.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output3.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output3.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C00000000000000000000000000000000000000000000000000000000000000000000000000C6D3C1E2C840C6D3C1E2C840C6D3C1E2C800000000000000000000000000000000000000000000000000005C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output4.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output4.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C00000000000000000000000000000000000000000000000000000000000000000000000000C6D3C1E2C840C6D3C1E2C840C6D3C1E2C800000000000000000000000000000000000000000000000000005C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C00000000000000000000000000000000000000000000000000000000000000000000000000C6D3C1E2C840C6D3C1E2C840C6D3C1E2C800000000000000000000000000000000000000000000000000005C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C00000000000000000000000000000000000000000000000000000000000000000000000000C6D3C1E2C840C6D3C1E2C840C6D3C1E2C800000000000000000000000000000000000000000000000000005C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output5.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output5.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C00000000000000000000000000000000000000000000000000000000000000000000000000C6D3C1E2C840C6D3C1E2C840C6D3C1E2C800000000000000000000000000000000000000000000000000005C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C00000000000000000000000000000000000000000000000000000000000000000000000000C6D3C1E2C840C6D3C1E2C840C6D3C1E2C800000000000000000000000000000000000000000000000000005C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C00000000000000000000000000000000000000000000000000000000000000000000000000C6D3C1E2C840C6D3C1E2C840C6D3C1E2C800000000000000000000000000000000000000000000000000005C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output6.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output6.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output6.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output6.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C00000000000000000000000000000000000000000000000000000000000000000000000000C6D3C1E2C840C6D3C1E2C840C6D3C1E2C800000000000000000000000000000000000000000000000000005C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C00000000000000000000000000000000000000000000000000000000000000000000000000C6D3C1E2C840C6D3C1E2C840C6D3C1E2C800000000000000000000000000000000000000000000000000005C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output7.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output7.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output7.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output7.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output8.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output8.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output8.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output8.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C40C140E5C5D9E840C9D4D7D6D9E3C1D5E340D4C5E2E2C1C7C540C2D9D6E4C7C8E340E3D640E8D6E440C2E840C8C4C4D9E7D4F040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output9.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output9.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output9.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output9.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C40C140E5C5D9E840C9D4D7D6D9E3C1D5E340D4C5E2E2C1C7C540C2D9D6E4C7C8E340E3D640E8D6E440C2E840C8C4C4D9E7D4F040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C40C140E5C5D9E840C9D4D7D6D9E3C1D5E340D4C5E2E2C1C7C540C2D9D6E4C7C8E340E3D640E8D6E440C2E840C8C4C4D9E7D4F040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output10.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output10.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output10.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output10.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="11" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5CD996A285A240C1998540D98584404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output11.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output11.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output11.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output11.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5CD996A285A240C1998540D98584404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5CD996A285A240C1998540D98584404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="12" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C40404040E589969385A3A24081998540C293A4854040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output12.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output12.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output12.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output12.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C40404040E589969385A3A24081998540C293A4854040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C40404040E589969385A3A24081998540C293A4854040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="13" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5CC9E2D7E64089A240C7998581A3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output13.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output13.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output13.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output13.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5CC9E2D7E64089A240C7998581A3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5CC9E2D7E64089A240C7998581A3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="14" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C4040404081958440A2964081998540A896A45A404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output14.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output14.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output14.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output14.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C4040404081958440A2964081998540A896A45A404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C4040404081958440A2964081998540A896A45A404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="15" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output15.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output15.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output15.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output15.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="16" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output16.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output16.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output16.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output16.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C40404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040405C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="17" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output17.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output17.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output17.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output17.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="18" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output18.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output18.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output18.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output18.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="19" name="OUTPUT">
+    <stub:interface>../Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface#Unit%20Test/Interfaces/TPROG03_OUTPUT_OUTPUT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#Unit%20Test/Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC" id="arg0.OUTPUT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.CC" id="output19.arg0.OUTPUT_REC.CC" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/TPROG03_OUTPUT_OUTPUT-REC.listructure#OUTPUT_REC.OUTPUT_LINE" id="output19.arg0.OUTPUT_REC.OUTPUT_LINE" offset="1"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output19.arg0.OUTPUT_REC.CC">
+        <checkconditions:expression>x'00' eq result.arg0.OUTPUT_REC.CC</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'00'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output19.arg0.OUTPUT_REC.OUTPUT_LINE">
+        <checkconditions:expression>x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040' eq result.arg0.OUTPUT_REC.OUTPUT_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">x'000000000000000000000000000000000000005C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C4040404040404040404040404040404040404040404040'</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+</stub:stub>
